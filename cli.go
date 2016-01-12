@@ -6,7 +6,7 @@ import (
 	"github.com/codegangsta/cli"
 )
 
-const version = "1.0.0"
+const version = "0.0.1"
 
 func init() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
