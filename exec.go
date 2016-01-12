@@ -9,7 +9,7 @@ import (
 const (
 	untracked = "\x3F\x3F"
 	deleted   = "\x20\x44"
-	cdeleted   = "\x44\x20"
+	cdeleted  = "\x44\x20"
 )
 
 func GitCmd(keepUntracked *bool) (modifiedFiles []string) {
